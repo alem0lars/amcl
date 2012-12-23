@@ -1,13 +1,7 @@
-=== Author
-Alessandro Molari
-member of Nextreamlabs (http://nextreamlabs.org)
-Emails:
-  molari.alessandro@gmail.com
+Middleware
+===============================================================================
+## Author
+* [Alessandro Molari](http://molarialessandro.info)
 
-=== Project Informations
-- Project website: https://nextreamlabs.atlassian.net/wiki/display/PRJSTDLIBC
-
-=== Project Description:
-This is a library for C projects by Nextreamlabs. It is used to
-complement the C stdlib where some functions/facilities are missing.
-
+## Project Informations
+More informations @ [the project website](http://molarialessandro.info/nmlabs-stdlib-c)
