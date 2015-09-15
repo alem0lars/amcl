@@ -1,18 +1,31 @@
-#ifndef __AMCL_SHELLCODE_H__
-#define __AMCL_SHELLCODE_H__
+#ifndef __AMCL_SHCODE_TEST_H__
+#define __AMCL_SHCODE_TEST_H__
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
-/**
- * Execute the provided shellcode.
- *
- * @param shellcode The shellcode (as bytestring of opcodes) to be executed.
- */
+int
+suite_shcode_init(
+  void
+);
+
+int
+suite_shcode_cleanup(
+  void
+);
+
 void
-exec_shellcode(
-  const char *shellcode
+test_exec_shcode(
+  void
 );
 
 /* }}} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+/**
+ * Test-cases definition for the 'amcl_shcode' module.
+ */
+CU_TestInfo testcases_shcode[] = {
+  { "test_exec_shcode", test_exec_shcode },
+  CU_TEST_INFO_NULL,
+};
 
 #endif

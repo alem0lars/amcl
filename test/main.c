@@ -6,6 +6,7 @@
 #include "amcl_log_test.h"
 #include "amcl_remote_test.h"
 #include "amcl_string_test.h"
+#include "amcl_shcode_test.h"
 
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -18,9 +19,10 @@ void generate_report(void);
 /* {{{ Test Suites. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 CU_SuiteInfo suites[] = {
-  { "log",    suite_log_init,    suite_log_cleanup,    testcases_log },
-  { "remote", suite_remote_init, suite_remote_cleanup, testcases_remote },
-  { "string", suite_string_init, suite_string_cleanup, testcases_string },
+  { "log",       suite_log_init,    suite_log_cleanup,    testcases_log },
+  { "remote",    suite_remote_init, suite_remote_cleanup, testcases_remote },
+  { "string",    suite_string_init, suite_string_cleanup, testcases_string },
+  { "shellcode", suite_shcode_init, suite_shcode_cleanup, testcases_shcode },
   CU_SUITE_INFO_NULL,
 };
 

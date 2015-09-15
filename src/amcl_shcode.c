@@ -5,12 +5,12 @@
 
 
 void
-exec_shellcode(
-  const char *shellcode
+exec_shcode(
+  const char *shcode
 ) {
   log_msg(LOG_LVL_DBG, LOG_FAC_STD, "Shellcode executor",
           "Executing shellcode (length: %d)",
-          get_string_length(shellcode));
-  int (*ret)() = (int(*)())shellcode;
+          get_string_length(shcode));
+  int (*ret)() = (int(*)())shcode;
   ret();
 }

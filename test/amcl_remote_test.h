@@ -8,7 +8,8 @@ suite_remote_init(
   void
 );
 
-int suite_remote_cleanup(
+int
+suite_remote_cleanup(
   void
 );
 
