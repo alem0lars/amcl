@@ -1,6 +1,7 @@
-#ifndef __UTIL_H__
-#define __UTIL_H__
+#ifndef __MISCUTILS_H__
+#define __MISCUTILS_H__
 
+/* {{{ Constants. */
 
 #ifndef TRUE
 #define TRUE 1
@@ -15,5 +16,6 @@
 #define WR_MODE 1
 #endif
 
+/* }}} */
 
 #endif

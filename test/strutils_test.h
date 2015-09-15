@@ -1,30 +1,30 @@
-#ifndef __LOGGING_TEST_H__
-#define __LOGGING_TEST_H__
+#ifndef __STRUTILS_TEST_H__
+#define __STRUTILS_TEST_H__
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 int
-suite_logging_init(
+suite_strutils_init(
   void
 );
 
 int
-suite_logging_cleanup(
+suite_strutils_cleanup(
   void
 );
 
 void
-test_log_msg(
+test_get_string_length(
   void
 );
 
 /* }}} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 /**
- * Test-cases definition for the logging module.
+ * Test-cases definition for the string module.
  */
-CU_TestInfo testcases_logging[] = {
-  { "test_log_msg", test_log_msg },
+CU_TestInfo testcases_string[] = {
+  { "test_get_string_length", test_get_string_length },
   CU_TEST_INFO_NULL,
 };
 

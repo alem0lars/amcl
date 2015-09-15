@@ -1,4 +1,7 @@
-out/**
-tmp/**
-*doxygen*
-*Doxygen*
+# Generated files.
+/docs/gen
+/build
+/bin
+/.debug-time
+
+*{d,D}oxygen*
