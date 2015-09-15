@@ -1,7 +1,13 @@
 amcl - alem0lars C library
 ==========================
 
-Collection of functions used almost in every project.
+**The C library that puts a little bit of sugar in the coffee.**
+
+## Getting started
+
+**amcl** is a collection of functions used almost in every project.
+
+You can build it running: `make`
 
 ## Author
 
