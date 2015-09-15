@@ -1,31 +1,18 @@
-#ifndef __LOGGING_TEST_H__
-#define __LOGGING_TEST_H__
+#ifndef __AMCL_SHELLCODE_H__
+#define __AMCL_SHELLCODE_H__
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
-int
-suite_logging_init(
-  void
-);
-
-int
-suite_logging_cleanup(
-  void
-);
-
+/**
+ * Execute the provided shellcode.
+ *
+ * @param shellcode The shellcode (as bytestring of opcodes) to be executed.
+ */
 void
-test_log_msg(
-  void
+exec_shellcode(
+  const char *shellcode
 );
 
 /* }}} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-
-/**
- * Test-cases definition for the logging module.
- */
-CU_TestInfo testcases_logging[] = {
-  { "test_log_msg", test_log_msg },
-  CU_TEST_INFO_NULL,
-};
 
 #endif

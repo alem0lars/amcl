@@ -7,9 +7,8 @@
 #include <stdio.h>
 #include <syslog.h>
 #include <time.h>
-
-#include "logging.h"
-#include "strutils.h"
+#include "amcl_log.h"
+#include "amcl_string.h"
 
 
 int

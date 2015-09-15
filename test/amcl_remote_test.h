@@ -1,5 +1,5 @@
-#ifndef __REMOTE_TEST_H__
-#define __REMOTE_TEST_H__
+#ifndef __AMCL_REMOTE_TEST_H__
+#define __AMCL_REMOTE_TEST_H__
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
@@ -40,14 +40,14 @@ test_setup_active_socket(
 /* }}} ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 /**
- * Test-cases definition for the remote module.
+ * Test-cases definition for the 'amcl_remote' module.
  */
 CU_TestInfo testcases_remote[] = {
-  { "test_socket_create", test_socket_create },
-  { "test_socket_bind",   test_socket_bind },
-  { "test_socket_listen", test_socket_listen },
+  { "test_socket_create",        test_socket_create },
+  { "test_socket_bind",          test_socket_bind },
+  { "test_socket_listen",        test_socket_listen },
   { "test_setup_passive_socket", test_setup_passive_socket },
-  { "test_setup_active_socket", test_setup_active_socket },
+  { "test_setup_active_socket",  test_setup_active_socket },
   CU_TEST_INFO_NULL,
 };
 

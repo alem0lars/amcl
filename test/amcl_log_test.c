@@ -3,18 +3,18 @@
 #include <unistd.h>
 #include <CUnit/CUnit.h>
 
-#include "../src/logging.h"
-#include "../src/strutils.h"
+#include "../src/amcl_log.h"
+#include "../src/amcl_string.h"
 
 
 int
-suite_logging_init(
+suite_log_init(
 ) {
   return 0;
 }
 
 int
-suite_logging_cleanup(
+suite_log_cleanup(
 ) {
   return 0;
 }

@@ -6,10 +6,10 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-#include "strutils.h"
-#include "remote.h"
-#include "logging.h"
-#include "miscutils.h"
+#include "amcl_string.h"
+#include "amcl_remote.h"
+#include "amcl_log.h"
+#include "amcl_utils.h"
 
 
 int

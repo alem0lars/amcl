@@ -6,8 +6,8 @@
 #include <sys/types.h>
 #include <sys/socket.h>
 
-#include "../src/remote.h"
-#include "../src/logging.h"
+#include "../src/amcl_remote.h"
+#include "../src/amcl_log.h"
 
 
 int

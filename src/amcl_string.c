@@ -4,8 +4,8 @@
 #include <limits.h>
 #include <errno.h>
 
-#include "strutils.h"
-#include "logging.h"
+#include "amcl_string.h"
+#include "amcl_log.h"
 
 
 int

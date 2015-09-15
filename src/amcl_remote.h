@@ -1,5 +1,5 @@
-#ifndef __REMOTE_H__
-#define __REMOTE_H__
+#ifndef __AMCL_REMOTE_H__
+#define __AMCL_REMOTE_H__
 
 /* {{{ Types. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 

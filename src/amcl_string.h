@@ -1,5 +1,5 @@
-#ifndef __STRUTILS_H__
-#define __STRUTILS_H__
+#ifndef __AMCL_STRING_H__
+#define __AMCL_STRING_H__
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 

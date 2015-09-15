@@ -2,17 +2,17 @@
 #include <stdlib.h>
 #include <CUnit/CUnit.h>
 
-#include "../src/strutils.h"
+#include "../src/amcl_string.h"
 
 
 int
-suite_strutils_init(
+suite_string_init(
 ) {
   return 0;
 }
 
 int
-suite_strutils_cleanup(
+suite_string_cleanup(
 ) {
   return 0;
 }

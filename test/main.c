@@ -3,9 +3,9 @@
 #include <CUnit/Basic.h>
 #include <CUnit/Automated.h>
 
-#include "logging_test.h"
-#include "remote_test.h"
-#include "strutils_test.h"
+#include "amcl_log_test.h"
+#include "amcl_remote_test.h"
+#include "amcl_string_test.h"
 
 
 /* {{{ Prototypes. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
@@ -18,9 +18,9 @@ void generate_report(void);
 /* {{{ Test Suites. ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
 
 CU_SuiteInfo suites[] = {
-  { "logging", suite_logging_init, suite_logging_cleanup, testcases_logging },
-  { "remote", suite_remote_init,  suite_remote_cleanup,  testcases_remote },
-  { "string", suite_strutils_init,  suite_strutils_cleanup,  testcases_string },
+  { "log",    suite_log_init,    suite_log_cleanup,    testcases_log },
+  { "remote", suite_remote_init, suite_remote_cleanup, testcases_remote },
+  { "string", suite_string_init, suite_string_cleanup, testcases_string },
   CU_SUITE_INFO_NULL,
 };
 
